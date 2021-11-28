@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>#1 - Planetary System Generator</title>
+    <title>#1 - Seeded Planetary System Generator</title>
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
@@ -13,6 +13,10 @@
     <style>
       body{
         background-color: white;
+      }
+
+      *{
+        font-family: monospace;
       }
 
       html,
@@ -32,6 +36,15 @@
         cursor: pointer;
         fill: #8B5CF6;
         color: #8B5CF6;
+      }
+
+      #info-box {
+        position: absolute;
+        width: 200px;
+        left: 80px;
+        top: 80px;
+        /* text-align: justify; */
+        font-family: monospace;
       }
 
       #code-icon{

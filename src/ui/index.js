@@ -41,6 +41,12 @@ export const Dashboard = () => {
       >
         <span>←</span>
       </a>
+      <p id="info-box">My first take at procedural generation from a seed.
+      <br/><br/>
+      An integer seed is split into parts, each used to generate the different properties of the planet: size, distance, type etc... and further seeds are generated for the other layers of the system (moons in this case) simple technique but quite effective.
+      <br/><br/>
+      Play around generating systems and if you fall in love with any of them, save the url to rebuild it later.
+      </p>
       <div className="container mx-auto mt-20 flex items-center justify-center flex-col">
         <div className="-mt-20 flex flex-col justify-center items-center">
           {activePlanet && <Visualization planet={activePlanet} />}
