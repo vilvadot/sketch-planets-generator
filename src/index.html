@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#1 - Planetary System Generator</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+    <style>
+      body{
+        background-color: white;
+      }
+
+      html,
+      body,
+      #universe {
+        height: 100% !important;
+        overflow: hidden;
+      }
+
+      .icon-link{
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+      }
+
+      .icon-link:hover{
+        cursor: pointer;
+        fill: #8B5CF6;
+        color: #8B5CF6;
+      }
+
+      #code-icon{
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+      }
+
+      #back-icon{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+      }
+
+      .viz-moon {
+        fill: white;
+        stroke: black;
+      }
+
+      @keyframes planet {
+        0% {
+          transform: rotateZ(0deg);
+        }
+        100% {
+          transform: rotateZ(-360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="universe"></div>
+    <script type="text/javascript" src="./ui/index.js"></script>
+  </body>
+</html>

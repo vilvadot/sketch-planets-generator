@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Moon can be recreated from a seed 1`] = `
+Moon {
+  "distance": 10.56,
+  "orbitalPeriod": 7,
+  "parentSize": 4,
+  "seed": "114295549",
+  "size": 0.8,
+}
+`;

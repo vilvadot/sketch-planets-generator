@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Planet can be recreated from a seed 1`] = `
+Planet {
+  "moons": Array [
+    Moon {
+      "distance": 23.760000000000005,
+      "orbitalPeriod": 12,
+      "parentSize": 2,
+      "seed": "224636690",
+      "size": 1.6,
+    },
+    Moon {
+      "distance": 15.400000000000002,
+      "orbitalPeriod": 46,
+      "parentSize": 2,
+      "seed": "192597404",
+      "size": 0.8,
+    },
+    Moon {
+      "distance": 58.52000000000001,
+      "orbitalPeriod": 13,
+      "parentSize": 2,
+      "seed": "726712999",
+      "size": 5.6000000000000005,
+    },
+  ],
+  "period": 1,
+  "seed": "1807983583",
+  "size": 2,
+  "type": "Gas",
+}
+`;
